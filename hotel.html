@@ -1,362 +1,498 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Farida Elchuzade</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="styles.css">
-  <title>Farida Elchuzade</title>
-</head>
-
-<body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container">
-      <a class="navbar-brand" href="/index.html"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item text-center">
-            <a class="nav-link mx-2" href="/index.html">Home</a>
-          </li>
-          <li class="nav-item text-center active">
-            <a class="nav-link mx-2" href="/about.html">About</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <div class="wrapper">
-    <div class="cover d-flex" style="background-image: url(img/hotel-image.jpeg)">
-      <div class="cover-box p-5 m-auto text-center">
-        <h1 class="display-1">Hotel Booking</h1>
-        <p>Improving hotel booking process for users</p>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="py-5">
-        <div class="m-5">
-          <h3 class="mb-4">Project goal and overview</h3>
-          <p>This case study was done as part of the UX Design Professional Diploma program by the UX Design Institute x
-            Glasgow Caledonian University.
-
-            My role was to carry out the whole UX Design process to get deep insight into the hotel booking process and
-            then create a mockup of an improved hotel website that includes the homepage, search, booking process, and
-            payment.</p>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="/index.html"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item text-center">
+              <a class="nav-link mx-2" href="/index.html">Home</a>
+            </li>
+            <li class="nav-item text-center active">
+              <a class="nav-link mx-2" href="/about.html">About</a>
+            </li>
+          </ul>
         </div>
+      </div>
+    </nav>
+    <div class="wrapper">
+      <div
+        class="cover d-flex"
+        style="background-image: url(img/hotel/hotel-image.jpeg)"
+      >
+        <div class="cover-box p-5 m-auto text-center">
+          <h1 class="display-1">Hotel Booking</h1>
+          <p>Improving hotel booking process for users</p>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="py-5">
+          <div class="m-5">
+            <h3 class="mb-4">Project goal and overview</h3>
+            <p>
+              This case study was done as part of the UX Design Professional
+              Diploma program by the UX Design Institute x Glasgow Caledonian
+              University. My role was to carry out the whole UX Design process
+              to get deep insight into the hotel booking process and then create
+              a mockup of an improved hotel website that includes the homepage,
+              search, booking process, and payment.
+            </p>
+          </div>
+          <div class="m-5">
+            <div class="row">
+              <div class="col-12 col-md-6">
+                <h3 class="mb-4">Problem</h3>
+                <p>
+                  The hotel booking process cause challenges for users due to
+                  various factors such as confusion on the homepage with the
+                  calendar, lack of map features to visualize location and
+                  distance, and a confusing booking and payment process. As a
+                  result, users are not confident enough to continue with the
+                  payment process, leading to a drop in conversion rates. There
+                  is a need to identify and address these issues to improve the
+                  user experience and increase conversion rates.
+                </p>
+              </div>
+              <div class="col-12 col-md-6">
+                <h3 class="mb-4">Solution</h3>
+                <p>
+                  Meeting the basic needs of the users on the booking process
+                  and payment options to make it a fun and easy journey. Some of
+                  these include adding the map feature, more filtering options,
+                  easy add-on options, and payment with a summary to make it
+                  clear for the user.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="m-5 pb-5">
+          <div class="row">
+            <div class="col-12 col-md-6 col-lg-3 mb-4">
+              <h3>Tools</h3>
+              <ul class="list-group">
+                <li class="list-group-item" style="border: none">Miro</li>
+                <li class="list-group-item" style="border: none">Figma</li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 mb-4">
+              <h3>Team</h3>
+              <ul class="list-group">
+                <li class="list-group-item" style="border: none">Solo</li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 mb-4">
+              <h3>My Role</h3>
+              <ul class="list-group">
+                <li class="list-group-item" style="border: none">
+                  UX Research
+                </li>
+                <li class="list-group-item" style="border: none">UX Design</li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 mb-4">
+              <h3>Timeline</h3>
+              <ul class="list-group">
+                <li class="list-group-item" style="border: none">
+                  Overall: 8+ weeks
+                </li>
+                <li class="list-group-item" style="border: none">
+                  Discovery & Research: 2+ weeks
+                </li>
+                <li class="list-group-item" style="border: none">
+                  Design & testing: 6 weeks
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="m-5">
+          <h1 class="display-5 text-center mb-5">My Design Process</h1>
+          <div class="row">
+            <div class="step col-12 col-md-2" href="#">
+              <div class="row my-2">
+                <div class="col-3 col-md-12">
+                  <div class="circle mx-auto"><b>1</b></div>
+                </div>
+                <div class="col-9 col-md-12 d-flex align-items-center">
+                  <h4 class="m-0 text-left text-md-center mt-md-3 w-100">
+                    Competitive benchmark
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="step col-12 col-md-2" href="#">
+              <div class="row my-2">
+                <div class="col-3 col-md-12">
+                  <div class="circle mx-auto"><b>2</b></div>
+                </div>
+                <div class="col-9 col-md-12 d-flex align-items-center">
+                  <h4 class="m-0 text-left text-md-center mt-md-3 w-100">
+                    Online survey
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="step col-12 col-md-2" href="#">
+              <div class="row my-2">
+                <div class="col-3 col-md-12">
+                  <div class="circle mx-auto"><b>3</b></div>
+                </div>
+                <div class="col-9 col-md-12 d-flex align-items-center">
+                  <h4 class="m-0 text-left text-md-center mt-md-3 w-100">
+                    Usability tests
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="step col-12 col-md-2" href="#">
+              <div class="row my-2">
+                <div class="col-3 col-md-12">
+                  <div class="circle mx-auto"><b>4</b></div>
+                </div>
+                <div class="col-9 col-md-12 d-flex align-items-center">
+                  <h4 class="m-0 text-left text-md-center mt-md-3 w-100">
+                    Affinity diagram
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="step col-12 col-md-2" href="#">
+              <div class="row my-2">
+                <div class="col-3 col-md-12">
+                  <div class="circle mx-auto"><b>5</b></div>
+                </div>
+                <div class="col-9 col-md-12 d-flex align-items-center">
+                  <h4 class="m-0 text-left text-md-center mt-md-3 w-100">
+                    Customer journey
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="step col-12 col-md-2" href="#">
+              <div class="row my-2">
+                <div class="col-3 col-md-12">
+                  <div class="circle mx-auto"><b>6</b></div>
+                </div>
+                <div class="col-9 col-md-12 d-flex align-items-center">
+                  <h4 class="m-0 text-left text-md-center mt-md-3 w-100">
+                    Flow diagram
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="m-5">
+          <div id="slideshow" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  class="d-block w-100"
+                  src="img/hotel/slideshow-1.png"
+                  alt="First slide"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="d-block w-100"
+                  src="img/hotel/slideshow-2.png"
+                  alt="Second slide"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="d-block w-100"
+                  src="img/hotel/slideshow-3.png"
+                  alt="Third slide"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="d-block w-100"
+                  src="img/hotel/slideshow-4.png"
+                  alt="Third slide"
+                />
+              </div>
+            </div>
+            <a
+              class="carousel-control-prev"
+              href="#slideshow"
+              role="button"
+              data-slide="prev"
+            >
+              <div class="carousel-control-wrapper">
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+              </div>
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#slideshow"
+              role="button"
+              data-slide="next"
+            >
+              <div class="carousel-control-wrapper">
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+              </div>
+            </a>
+          </div>
+        </div>
+
         <div class="m-5">
           <div class="row">
             <div class="col-12 col-md-6">
-              <h3 class="mb-4">Problem</h3>
-              <p>The hotel booking process cause challenges for users due to various factors such as confusion on the
-                homepage with the calendar, lack of map features to visualize location and distance, and a confusing
-                booking
-                and payment process. As a result, users are not confident enough to continue with the payment process,
-                leading to a drop in conversion rates. There is a need to identify and address these issues to improve
-                the
-                user experience and increase conversion rates.</p>
-            </div>
-            <div class="col-12 col-md-6">
-              <h3 class="mb-4">Solution</h3>
-              <p>Meeting the basic needs of the users on the booking process and payment options to make it a fun and
-                easy
-                journey. Some of these include adding the map feature, more filtering options, easy add-on options, and
-                payment with a summary to make it clear for the user.</p>
+              <h3 class="mb-4">Surveys</h3>
+              <p>
+                After the project kickoff, I defined the research strategy and
+                objectives. My priority was to understand the target audience
+                and their challenges. First, I built an online survey and shared
+                it on various platforms and communities. In just a few days, I
+                received 70+ submissions. Based on the results, I identified 5
+                common pain points, which led me to the next step.
+              </p>
+              <ul class="list-group">
+                <li
+                  class="list-group-item my-1 py-0"
+                  style="border: none; border-left: 1px solid black"
+                >
+                  The survey included open-ended and multiple-choice options
+                </li>
+                <li
+                  class="list-group-item my-1 py-0"
+                  style="border: none; border-left: 1px solid black"
+                >
+                  70+ people filled out the survey
+                </li>
+                <li
+                  class="list-group-item my-1 py-0"
+                  style="border: none; border-left: 1px solid black"
+                >
+                  Users find hotel booking slow, complicated, and lacking
+                  clarity
+                </li>
+                <li
+                  class="list-group-item my-1 py-0"
+                  style="border: none; border-left: 1px solid black"
+                >
+                  Used my findings to design a user journey map and an improved
+                  hotel website for a better booking and payment process.
+                </li>
+              </ul>
             </div>
           </div>
         </div>
-      </div>
 
-      <div class="m-5 pb-5">
-        <div class="row">
-          <div class="col-12 col-md-6 col-lg-3 mb-4">
-            <h3>Tools</h3>
-            <ul class="list-group">
-              <li class="list-group-item" style="border: none">Miro</li>
-              <li class="list-group-item" style="border: none">Figma</li>
-            </ul>
-          </div>
-          <div class="col-12 col-md-6 col-lg-3 mb-4">
-            <h3>Team</h3>
-            <ul class="list-group">
-              <li class="list-group-item" style="border: none">Solo</li>
-            </ul>
-          </div>
-          <div class="col-12 col-md-6 col-lg-3 mb-4">
-            <h3>My Role</h3>
-            <ul class="list-group">
-              <li class="list-group-item" style="border: none">UX Research</li>
-              <li class="list-group-item" style="border: none">UX Design</li>
-            </ul>
-          </div>
-          <div class="col-12 col-md-6 col-lg-3 mb-4">
-            <h3>Timeline</h3>
-            <ul class="list-group">
-              <li class="list-group-item" style="border: none">Overall: 8+ weeks</li>
-              <li class="list-group-item" style="border: none">Discovery & Research: 2+ weeks</li>
-              <li class="list-group-item" style="border: none">Design & testing: 6 weeks</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <div class="m-5">
-        <h1 class="display-5 text-center mb-5">My Design Process</h1>
-        <div class="row">
-          <div class="step col-12 col-md-2" href="#">
-            <div class="row my-2">
-              <div class="col-3 col-md-12">
-                <div class="circle mx-auto"><b>1</b></div>
-              </div>
-              <div class="col-9 col-md-12 d-flex align-items-center">
-                <h4 class="m-0 text-left text-md-center mt-md-3 w-100">Competitive benchmark</h4>
-              </div>
-            </div>
-          </div>
-          <div class="step col-12 col-md-2" href="#">
-            <div class="row my-2">
-              <div class="col-3 col-md-12">
-                <div class="circle mx-auto"><b>2</b></div>
-              </div>
-              <div class="col-9 col-md-12 d-flex align-items-center">
-                <h4 class="m-0 text-left text-md-center mt-md-3 w-100">Online survey</h4>
-              </div>
-            </div>
-          </div>
-          <div class="step col-12 col-md-2" href="#">
-            <div class="row my-2">
-              <div class="col-3 col-md-12">
-                <div class="circle mx-auto"><b>3</b></div>
-              </div>
-              <div class="col-9 col-md-12 d-flex align-items-center">
-                <h4 class="m-0 text-left text-md-center mt-md-3 w-100">Usability tests</h4>
-              </div>
-            </div>
-          </div>
-          <div class="step col-12 col-md-2" href="#">
-            <div class="row my-2">
-              <div class="col-3 col-md-12">
-                <div class="circle mx-auto"><b>4</b></div>
-              </div>
-              <div class="col-9 col-md-12 d-flex align-items-center">
-                <h4 class="m-0 text-left text-md-center mt-md-3 w-100">Affinity diagram</h4>
-              </div>
-            </div>
-          </div>
-          <div class="step col-12 col-md-2" href="#">
-            <div class="row my-2">
-              <div class="col-3 col-md-12">
-                <div class="circle mx-auto"><b>5</b></div>
-              </div>
-              <div class="col-9 col-md-12 d-flex align-items-center">
-                <h4 class="m-0 text-left text-md-center mt-md-3 w-100">Customer journey</h4>
-              </div>
-            </div>
-          </div>
-          <div class="step col-12 col-md-2" href="#">
-            <div class="row my-2">
-              <div class="col-3 col-md-12">
-                <div class="circle mx-auto"><b>6</b></div>
-              </div>
-              <div class="col-9 col-md-12 d-flex align-items-center">
-                <h4 class="m-0 text-left text-md-center mt-md-3 w-100">Flow diagram</h4>
+        <div class="m-5">
+          <div class="row py-5">
+            <div class="m-5">
+              <div class="col-12">
+                <h3 class="mb-4">Interviews</h3>
+                <p>
+                  During the ideation phase of the project, I conducted user
+                  interviews to build new personas and to inform the design. I
+                  prepared open-ended questions, focusing on the target
+                  audience’s values, motivations, and booking a hotel process. I
+                  referenced the user interview findings throughout the entire
+                  design process.
+                </p>
               </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <div class="m-5">
-        <div id="slideshow" class="carousel slide" data-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img class="d-block w-100" src="img/slideshow-1.png" alt="First slide">
+        <div class="m-5">
+          <div
+            id="slideshow-stickers"
+            class="carousel slide"
+            data-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  class="d-block w-100"
+                  src="img/hotel/slide-1.png"
+                  alt="First slide"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="d-block w-100"
+                  src="img/hotel/slide-2.png"
+                  alt="Second slide"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="d-block w-100"
+                  src="img/hotel/slide-3.png"
+                  alt="Third slide"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="d-block w-100"
+                  src="img/hotel/slide-4.png"
+                  alt="Third slide"
+                />
+              </div>
             </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="img/slideshow-2.png" alt="Second slide">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="img/slideshow-3.png" alt="Third slide">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="img/slideshow-4.png" alt="Third slide">
-            </div>
+            <a
+              class="carousel-control-prev"
+              href="#slideshow-stickers"
+              role="button"
+              data-slide="prev"
+            >
+              <div class="carousel-control-wrapper">
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+              </div>
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#slideshow-stickers"
+              role="button"
+              data-slide="next"
+            >
+              <div class="carousel-control-wrapper">
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+              </div>
+            </a>
           </div>
-          <a class="carousel-control-prev" href="#slideshow" role="button" data-slide="prev">
-            <div class="carousel-control-wrapper">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            </div>
-          </a>
-          <a class="carousel-control-next" href="#slideshow" role="button" data-slide="next">
-            <div class="carousel-control-wrapper">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            </div>
-          </a>
         </div>
-      </div>
 
-      <div class="m-5">
-        <div class="row">
-          <div class="col-12 col-md-6">
-            <h3 class="mb-4">Surveys</h3>
-            <p>After the project kickoff, I defined the research strategy and objectives. My priority was to understand
-              the target audience and their challenges. First, I built an online survey and shared it on various
-              platforms and communities. In just a few days, I received 70+ submissions. Based on the results, I
-              identified 5 common pain points, which led me to the next step.</p>
-            <ul class="list-group">
-              <li class="list-group-item my-1 py-0" style="border: none; border-left: 1px solid black;">The survey
-                included
-                open-ended and
-                multiple-choice
-                options</li>
-              <li class="list-group-item my-1 py-0" style="border: none; border-left: 1px solid black;">70+ people
-                filled out
-                the survey</li>
-              <li class="list-group-item my-1 py-0" style="border: none; border-left: 1px solid black;">Users find hotel
-                booking slow,
-                complicated, and
-                lacking
-                clarity</li>
-              <li class="list-group-item my-1 py-0" style="border: none; border-left: 1px solid black;">Used my findings
-                to
-                design a user
-                journey map and an
-                improved hotel website for a better booking and payment process.</li>
-            </ul>
-          </div>
+        <div class="">
+          <img
+            src="img/hotel/comments-image.png"
+            class="img-fluid w-100"
+            alt="testimonials"
+          />
+          <p class="comments">User insights from the survey</p>
         </div>
-      </div>
 
-      <div class="m-5">
-        <div class="row py-5">
-          <div class="m-5">
+        <div class="my-5">
+          <div class="row py-5">
             <div class="col-12">
-              <h3 class="mb-4">Interviews</h3>
-              <p>During the ideation phase of the project, I conducted user interviews to build new personas and to
-                inform
-                the
-                design. I prepared open-ended questions, focusing on the target audience’s values, motivations, and
-                booking a
-                hotel process. I referenced the user interview findings throughout the entire design process.</p>
+              <h3 class="mb-4">Customer Journey</h3>
+              <p>
+                To gain insights into how customers interact with the website
+                and complete their hotel bookings, I developed a customer
+                journey map. By analyzing the map, I identified several user
+                challenges and opportunities that exist at the consideration and
+                loyalty stages of the customer journey. As a result, I
+                prioritized these stages during the design process to address
+                the identified issues and improve the user experience.
+              </p>
             </div>
           </div>
         </div>
-      </div>
 
-      <div class="m-5">
-        <div id="slideshow-stickers" class="carousel slide" data-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img class="d-block w-100" src="img/slide-1.png" alt="First slide">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="img/slide-2.png" alt="Second slide">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="img/slide-3.png" alt="Third slide">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="img/slide-4.png" alt="Third slide">
+        <div class="my-5">
+          <img src="img/hotel/miro-image.jpeg" alt="miro" class="img-fluid" />
+        </div>
+
+        <div class="my-5">
+          <div class="row py-5">
+            <div class="col-12">
+              <h3 class="mb-4">Learnings</h3>
+              <p>
+                Throughout this project, I improved my skills in user research,
+                particularly in conducting user interviews and usability
+                testing. I also learned to use new tools and software such as
+                Figma and Miro to create flow diagrams, wireframes, and
+                prototypes, which helped streamline the design process.
+                Additionally, I experimented with a new design practice of
+                creating journey maps to gain deeper insights into the user
+                experience.
+                <br />
+                <br />
+                This project challenged me to think critically about the user's
+                needs and behaviors, and to design solutions that address their
+                pain points. Through this experience, I learned to be more
+                empathetic towards users and to consider their perspectives in
+                all aspects of the design process. This project has greatly
+                contributed to my growth as a designer and has helped me to
+                approach design problems in a more thoughtful and user-centered
+                manner. It also challenged some of my preconceptions about what
+                makes a good design and helped me to see the importance of
+                simplicity and clarity in creating effective designs. Overall,
+                this project has influenced the way I approach design and has
+                encouraged me to continue learning and growing as a designer.
+                <br />
+                <br />
+                By successfully completing this design process, I gained the
+                confidence to apply my research background and create a visually
+                appealing and functional user experience that effectively solves
+                complex human problems.
+              </p>
             </div>
           </div>
-          <a class="carousel-control-prev" href="#slideshow-stickers" role="button" data-slide="prev">
-            <div class="carousel-control-wrapper">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </div>
+
+        <div class="my-5">
+          <div class="row py-5">
+            <div class="col-12">
+              <h3 class="mb-4">Thank you for reading my case study.</h3>
             </div>
-          </a>
-          <a class="carousel-control-next" href="#slideshow-stickers" role="button" data-slide="next">
-            <div class="carousel-control-wrapper">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            </div>
-          </a>
-        </div>
-      </div>
-
-      <div class="">
-        <img src="img/comments-image.png" class="img-fluid w-100" alt="testimonials" />
-        <p class="comments">User insights from the survey</p>
-      </div>
-
-      <div class="my-5">
-        <div class="row py-5">
-          <div class="col-12">
-            <h3 class="mb-4">Customer Journey</h3>
-            <p>To gain insights into how customers interact with the website and complete their hotel bookings, I
-              developed
-              a
-              customer journey map. By analyzing the map, I identified several user challenges and opportunities that
-              exist
-              at
-              the consideration and loyalty stages of the customer journey. As a result, I prioritized these stages
-              during
-              the
-              design process to address the identified issues and improve the user experience.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="my-5">
-        <img src="img/miro-image.jpeg" alt="miro" class="img-fluid">
-      </div>
-
-      <div class="my-5">
-        <div class="row py-5">
-          <div class="col-12">
-            <h3 class="mb-4">Learnings</h3>
-            <p>Throughout this project, I improved my skills in user research, particularly in conducting user
-              interviews and usability testing. I also learned to use new tools and software such as Figma and Miro to
-              create flow diagrams, wireframes, and prototypes, which helped streamline the design process.
-              Additionally, I experimented with a new design practice of creating journey maps to gain deeper insights
-              into the user experience.
-              <br />
-              <br />
-              This project challenged me to think critically about the user's needs and behaviors, and to design
-              solutions that address their pain points. Through this experience, I learned to be more empathetic towards
-              users and to consider their perspectives in all aspects of the design process. This project has greatly
-              contributed to my growth as a designer and has helped me to approach design problems in a more thoughtful
-              and user-centered manner. It also challenged some of my preconceptions about what makes a good design and
-              helped me to see the importance of simplicity and clarity in creating effective designs. Overall, this
-              project has influenced the way I approach design and has encouraged me to continue learning and growing as
-              a designer.
-              <br />
-              <br />
-              By successfully completing this design process, I gained the confidence to apply my research background
-              and create a visually appealing and functional user experience that effectively solves complex human
-              problems.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="my-5">
-        <div class="row py-5">
-          <div class="col-12">
-            <h3 class="mb-4">Thank you for reading my case study.</h3>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="container footer">
-    <hr>
-    <div class="div mt-auto">
-      <a class="footer-link p-3" href="/index.html">Home</a>
-      <a class="footer-link p-3" href="/about.html">About</a>
+    <div class="container footer">
+      <hr />
+      <div class="div mt-auto">
+        <a class="footer-link p-3" href="/index.html">Home</a>
+        <a class="footer-link p-3" href="/about.html">About</a>
+      </div>
     </div>
-  </div>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
-</body>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+  </body>
 </html>
